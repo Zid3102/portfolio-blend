@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Zid</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <script> </script>
+</head>
+<body>
+    <header>
+        <div class="logo-div" id="1">
+            <a href="#" class="logo"><img src="ssq 1.jpg"></a>
+        </div>
+        <div class="links-div">
+            <ul>
+                <li><a href="#1">Home</a></li>
+                <li><a href="#2">About</a></li>
+                <li><a href="#3">Timeline</a></li>
+                <li><a href="#4">Connect</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        
+        <img src="moon1-modified.png" id="moon">
+        <img src="Backgroundmtt.jpg" id="backgroundmtt">
+        <h2 id="text">SIDDHARTH &nbsp; S  &nbsp;</h2>
+                   
+    </section>
+    <div class="para" id="2">
+        <h2>
+            Brief About Me
+        </h2>
+        <div class="profile">
+            
+           <img src="ss.jpg" id="profile">
+           
+            <p>               I am SIDDHARTH S, an upcoming Full Stack Developer <br>
+
+            Sample Text
+            <br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus odio eveniet obcaecati iure quo debitis nemo placeat reiciendis aliquam fugiat itaque, quod, mollitia dolore? Quo at sunt adipisci mollitia quibusdam.
+            </p>
+        </div>
+    </div>
+    <section class="line" >
+        <div class="timeline"id="3" >
+            <ul>
+            <li>
+                <div>
+                <time>2019</time> Finished 12th with distinction
+                </div>
+            </li>
+            <li>
+                <div>
+                <time>2020</time> Joined SRM IST <br>  Met new friends 
+                </div>
+            </li>
+            <li>
+                <div>
+                <time>2021</time>Joined Codechef Club <br> Hosted some events
+                </div>
+            </li>
+            <li>
+                <div>
+                <time>Present</time>Enjoying Life with friends and following my passion that is coding
+                </div>
+            </li>
+            <li>
+                <div>
+                <time>Yet to come</time> Becoming a successful person that my MOM will be proud of 
+                </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="connect" id="4"> Connect With Me
+       <a href="#"> <i class="fab fa-github ll"></i></a>
+       <a href="#"> <i class="fab fa-linkedin ll"></i></a>
+       <a href="#"> <i class="fab fa-twitter ll"></i></a>
+       <a href="#"> <i class="fab fa-instagram ll"></i></a>
+    </div>
+    
+</section>
+    <script>
+        
+        let moon = document.getElementById('moon');
+       
+        let text = document.getElementById('text');
+       
+        let backgroundmtt = document.getElementById('backgroundmtt');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            
+            moon.style.top=value*0.5 + 'px';
+            text.style.top=value*0.65 + 'px';
+            
+        })
+
+
+        
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
