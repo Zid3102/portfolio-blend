@@ -252,6 +252,9 @@ section img {
         height: 200px;
     }
 }
-@media (max-width: 425px){
-    
+@media (max-width: 1920px){
+    .para{
+    padding-top: 0%;
+    margin-top:  60px;
+    }
 }
